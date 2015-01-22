@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<style>
+		body{ text-align:center; margin:1em; }
+		.container{
+			display:inline-block;
+			width:960px;
+			text-align:left;
+		}
+		.grid{
+			position:relative;
+			width:600px;
+			height:400px;
+			overflow:auto;
+			border:2px solid #ccc;
+		}
+		.grid .head{
+			position:absolute;
+			width:2000px;
+			z-index: 9;
+			background-color:#fff;
+		}
+		.grid table{
+			margin-bottom:0;
+		}
+		.grid .body{
+			position:relative;
+			width:2000px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="grid" id="grid">
+			<div class="head" id="grid-head">
+				<table class="table">
+					<thead>
+						<tr>
+							<th style="width: 10%">#</th>
+							<th style="width: 30%">CABECERA 1</th>
+							<th style="width: 40%">CABECERA 2</th>
+							<th style="width: 10%">CABECERA 3</th>
+							<th style="width: 10%">CABECERA 4</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div class="body" id="grid-body">
+				<table class="table">
+					<tbody>
+						<tr>
+							<td style="width: 10%">1</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">2</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">3</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">4</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">5</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">6</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">7</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">8</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">9</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">1</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">10</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">11</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+						<tr>
+							<td style="width: 10%">12</td>
+							<td style="width: 30%">INFORMACION DE CABECERA 1</td>
+							<td style="width: 40%">INFORMACION DE CABECERA 2</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 3</td>
+							<td style="width: 10%">INFORMACION DE CABECERA 4</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		var tableHeight;
+		var objTable = document.getElementById("grid-head");
+		if(objTable.offsetHeight)          { tableHeight=objTable.offsetHeight;}
+		else if(objTable.style.pixelHeight){ tableHeight=objTable.style.pixelHeight;}
+
+		document.getElementById("grid-body").style.marginTop = tableHeight + 'px';
+
+		document.getElementById("grid").addEventListener("scroll", function(e){
+			document.getElementById("grid-head").style.top = this.scrollTop + 'px';
+			
+		});
+	</script>
+</body>
+</html>
