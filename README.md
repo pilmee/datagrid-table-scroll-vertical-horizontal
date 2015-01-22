@@ -46,7 +46,7 @@ __HTML__
 ```
 > Definicion de la estructura HTML del grid la cual cuenta con dos tablas (una de cabecera y otra de cuerpo envueltas en un div padre)
 
-__CSSS__
+__CSS__
 ```css
 .grid{
 	position:relative;
