@@ -81,8 +81,7 @@ else if(objTable.style.pixelHeight){ tableHeight=objTable.style.pixelHeight;}
 document.getElementById("grid-body").style.marginTop = tableHeight + 'px';
 
 document.getElementById("grid").addEventListener("scroll", function(e){
-	document.getElementById("grid-head").style.top = this.scrollTop + 'px';
-	
+	objTable.style.top = this.scrollTop + 'px';
 });
 ```
 > En esta parte preguntamos en primer lugar por el alto de la cabecera y es que este alto es el margen supeior del cuerpo.
